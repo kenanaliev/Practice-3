@@ -1,0 +1,50 @@
+#nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid gray;
+
+    .title {
+        margin-left: 235px;
+        margin-top: 26px;
+        font-size: 23px;
+
+        h2 {
+            a {
+                color: white;
+            }
+        }
+    }
+
+    .list {
+        .common {
+            display: flex;
+            gap: 40px;
+            margin-right: 250px;
+            margin-top: 33px;
+            font-size: 19px;
+
+            li {
+                a {
+                    color: gray;
+                }
+            }
+
+            li:hover{
+                a {
+                    color: white;
+                    transition: 0.4s;
+                }
+            }
+
+            ul {
+                display: none;
+            }
+
+            ul:hover {
+                display: block;
+            }
+        }
+    }
+}
